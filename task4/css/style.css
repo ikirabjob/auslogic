@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.wrap{
+    width: 350px;
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+}

@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^files/(.*)\.exe$ /index.php?file=$1 [L]
+</IfModule>
